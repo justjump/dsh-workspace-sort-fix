@@ -1,0 +1,4 @@
+# 侧边栏工作区按「最近更新」排序的修复插件
+- insert:
+    - id: workspace-sort-fix
+      name: 'dsh-workspace-sort-fix'

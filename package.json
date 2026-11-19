@@ -1,0 +1,41 @@
+{
+  "name": "dsh-workspace-sort-fix",
+  "version": "0.1.2",
+  "private": false,
+  "type": "module",
+  "description": "DSH sidebar fix: make \"Sort by → Last updated\" actually reorder workspace groups, not just sessions inside them",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "sidebar",
+    "sort"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justjump/dsh-workspace-sort-fix.git"
+  },
+  "homepage": "https://github.com/justjump/dsh-workspace-sort-fix#readme",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ]
+}
